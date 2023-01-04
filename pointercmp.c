@@ -4,6 +4,6 @@ int main(){
 	int _age=23;
 	int *ptr=&age;
 	int *_ptr=&_age;
-	printf("Difference : %p\n", ptr-_ptr);
-	printf("Comparision : %p\n",ptr==_ptr);
+	printf("Difference : %d\n", _ptr-ptr);
+	printf("Comparision : %d\n",ptr==_ptr);
 }
